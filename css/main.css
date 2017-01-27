@@ -309,6 +309,186 @@ header{
 	margin: 44px 0 40px;
 }
 
+.my-product-container {
+	max-width: 1165px;
+	margin: 26px auto 0;
+}
+
+.my-product-item {
+	width: 25%;
+	float: left;
+	position: relative;
+}
+
+.my-product-item .sum {
+	background: #494949;
+	position: relative;
+	padding: 40px 0 20px;
+	z-index: 10;
+}
+
+.prodslash {
+	position: absolute;
+	width: 100%;
+	height: 4px;
+	background: #f9f9f9;
+	top: 12px;
+	border-top: 1px solid #969696;
+	border-bottom: 1px solid #cdcdcd;
+	z-index: 11;
+}
+
+.my-product-item .sum:before{
+	content: "";
+	position: absolute;
+	bottom: -38px;
+	width: 0;
+	height: 0;
+	border-left: 145px solid transparent;
+	border-right: 145px solid transparent;
+	border-top: 38px solid #494949;
+	left: 1px;
+}
+
+p.sum-center {
+	font: 36px/32px "ElektraLightPro-Bold";
+	color: #c2cf2f;
+	max-width: 187px;
+	border-top: 2px solid #f4f1da;
+	border-bottom: 2px solid #f4f1da;
+	padding: 6px 0;
+	margin: 0 auto;
+	text-align: center;
+	text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.77);
+}
+
+span.price {
+	font: 36px/32px "ElektraLightPro-Bold";
+	color: #fff;
+	display: block;
+	text-align: center;
+	margin: 41px 0 36px;
+	text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.77);
+}
+
+.product-img {
+	text-align: center;
+	padding: 70px 0 20px;
+	background: #fff;
+	position: relative;
+	max-height: 191px;
+	z-index: 9;
+	border-left: 1px solid #e5ca88;
+	border-right: 1px solid #e5ca88;
+}
+
+.my-product-item:first-child .product-img {
+	border-left: 0;
+}
+
+.my-product-item:last-child .product-img {
+	border-right: 0;
+}
+
+.product-img:before {
+	content: "";
+	position: absolute;
+	bottom: -38px;
+	width: 0;
+	height: 0;
+	border-left: 145px solid transparent;
+	border-right: 145px solid transparent;
+	border-top: 38px solid #fff;
+	left: 1px;
+}
+
+.cancelar {
+	position: relative;
+	background: #494949;
+	padding: 35px 0 5px;
+}
+
+.cancelar:before {
+	content: "";
+	position: absolute;
+	bottom: -38px;
+	width: 0;
+	height: 0;
+	border-left: 145px solid transparent;
+	border-right: 145px solid transparent;
+	border-top: 38px solid #494949;
+	left: 1px;
+}
+
+.cancelar-item {
+	width: 50%;
+	float: left;
+	text-align: center;
+	height: 78px;
+	margin-bottom: 16px;
+}
+
+.cancelar-item span {
+	font: 14px/normal "MyriadPro-BoldCond";
+	color: #fff;
+	display: block;
+	text-transform: uppercase;
+	margin: 6px 0 0;
+}
+
+.cancelar-item:nth-child(3),
+.cancelar-item:nth-child(4) {
+	margin-bottom: 0;
+}
+
+.item-green .sum {
+	background: #c2cf2f;
+}
+.item-green .sum:before {
+	border-top: 38px solid #c2cf2f;
+}
+
+.item-green p.sum-center {
+	color: #494949;
+	text-shadow: 0 0 0 transparent;
+}
+
+.item-green span.price {
+	color: #252525;
+	text-shadow: 0 0 0 transparent;
+}
+
+.item-green .cancelar {
+	background: #c2cf2f;
+}
+.item-green .cancelar:before {
+	border-top: 38px solid #c2cf2f;
+}
+
+.item-green .cancelar-item span {
+	color: #1e1e1e;
+}
+
+.my-product > h3 {
+	font: 36px/normal "ElektraLightPro-Bold";
+	color: #363636;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+.my-product > span {
+	font: 18px/normal "MyriadPro-Regular";
+	color: #363636;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+}
+
+.my-product {
+	margin: 94px 0 70px;
+}
+
 /* MAIN STYLE =====================
 ==============================================*/
 
