@@ -4,6 +4,7 @@ body {
 	min-width: 320px;
 	position: relative;
 	overflow-x: hidden;
+	background: #f9f9f9;
 }
 
 .hidden {
@@ -228,6 +229,84 @@ header{
 
 .over-form {
 	margin-top: 60px;
+}
+
+.what-container {
+	max-width: 1085px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.help-wrapper {
+	width: 33.3%;
+	float: left;
+	padding: 0 15px;	
+}
+
+.help-item {
+	font: 16px/normal "MyriadPro-Regular";
+	color: #363636;
+	position: relative;
+	border-radius: 15px 15px 0 0;
+	background: #fff;
+	min-height: 705px;
+	padding: 21px 22px 10px 22px;
+	-webkit-box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.3);
+}
+
+.help-item img {
+	margin: 0 auto;
+	display: block;
+}
+
+.help-item p {
+	margin-bottom: 20px;
+}
+
+.help-item h3 {
+	font: 18px/22px "ElektraLightPro-Bold";
+	text-align: center;
+	text-transform: uppercase;
+	margin: 41px 0 45px;
+}
+
+.help-item .popup {
+	position: absolute;
+	bottom: -20px;
+	font: 18px/41px "MyriadPro-Regular";
+	font-weight: bold;
+	border-radius: 10px;
+	background: #c2cf2f;
+	color: #464646;
+	max-width: 170px;
+	left: 50%;
+	margin-left: -85px;
+	width: 100%;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 1px solid #464646;
+	-mox-box-shadow: 0px 7px 15px 1px rgba(36, 36, 36, 0.51);
+	-webkit-box-shadow: 0px 7px 15px 1px rgba(36, 36, 36, 0.51);
+	-o-box-shadow: 0px 7px 15px 1px rgba(36, 36, 36, 0.51);
+	box-shadow: 0px 7px 15px 1px rgba(36, 36, 36, 0.51);
+	-webkit-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+
+.help-item .popup:hover {
+	background: #dae42b;
+}
+
+.what-help-h3 {
+	font: 36px/normal "ElektraLightPro-Bold";
+	color: #363636;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 44px 0 40px;
 }
 
 /* MAIN STYLE =====================
