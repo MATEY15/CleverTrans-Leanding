@@ -1,0 +1,59 @@
+@font-face {
+	font-family: "MyriadPro-Regular";
+	src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.eot");
+	src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MyriadPro-Regular/MyriadPro-Regular.woff") format("woff"),
+	url("../fonts/MyriadPro-Regular/MyriadPro-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "ElektraLightPro-Bold";
+	src: url("../fonts/ElektraLightPro-Bold/ElektraLightPro-Bold.eot");
+	src: url("../fonts/ElektraLightPro-Bold/ElektraLightPro-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ElektraLightPro-Bold/ElektraLightPro-Bold.woff") format("woff"),
+	url("../fonts/ElektraLightPro-Bold/ElektraLightPro-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "ElektraLightPro-BoldItalic";
+	src: url("../fonts/ElektraLightPro-BoldItalic/ElektraLightPro-BoldItalic.eot");
+	src: url("../fonts/ElektraLightPro-BoldItalic/ElektraLightPro-BoldItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ElektraLightPro-BoldItalic/ElektraLightPro-BoldItalic.woff") format("woff"),
+	url("../fonts/ElektraLightPro-BoldItalic/ElektraLightPro-BoldItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "LatoBold";
+	src: url("../fonts/LatoBold/LatoBold.eot");
+	src: url("../fonts/LatoBold/LatoBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/LatoBold/LatoBold.woff") format("woff"),
+	url("../fonts/LatoBold/LatoBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "MyriadPro-BoldCond";
+	src: url("../fonts/MyriadPro-BoldCond/MyriadPro-BoldCond.eot");
+	src: url("../fonts/MyriadPro-BoldCond/MyriadPro-BoldCond.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MyriadPro-BoldCond/MyriadPro-BoldCond.woff") format("woff"),
+	url("../fonts/MyriadPro-BoldCond/MyriadPro-BoldCond.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "MyriadPro-BlackSemiCn";
+	src: url("../fonts/MyriadPro-BlackSemiCn/MyriadPro-BlackSemiCn.eot");
+	src: url("../fonts/MyriadPro-BlackSemiCn/MyriadPro-BlackSemiCn.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MyriadPro-BlackSemiCn/MyriadPro-BlackSemiCn.woff") format("woff"),
+	url("../fonts/MyriadPro-BlackSemiCn/MyriadPro-BlackSemiCn.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

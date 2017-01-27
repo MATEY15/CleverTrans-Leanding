@@ -1,0 +1,750 @@
+body {
+	font-family: "MyriadPro-Regular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	overflow-x: hidden;
+}
+
+.hidden {
+	display: none;
+}
+
+button{
+	cursor: pointer;
+}
+
+/* CLEARFIX =====================
+==============================================*/
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+
+/* HEADER =========================
+==============================================*/
+
+header{
+	background-image: url(../img/bg_header.jpg);
+	background-repeat: repeat-x;
+	background-position: center 0;
+	height: 960px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.header-top {
+	height: 175px;
+	-webkit-box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.header-foot {
+	position: relative;
+	height: 100%;
+	max-height: 785px;
+	background: rgba(0, 0, 0, 0.34);
+	padding-top: 63px;
+}
+
+.logo {
+	color: #383838;
+}
+
+.logo a {
+	text-decoration: none;
+	color: #262626;
+	text-shadow: 0px 0px 7px rgba(255, 255, 255, 0.6);
+	display: block;
+	margin-top: 20px;
+}
+
+.menu {
+	width: 54% !important;
+	text-align: right;
+	padding-top: 20px !important;
+}
+
+.menu .phone {
+	font: 40px/normal "ElektraLightPro-Bold", sans-serif;
+	color: #585858;
+	margin-top: 29px;
+}
+
+.logo img {
+	float: left;
+	margin-right: 15px;
+}
+
+.logo h1 {
+	font: 52px/normal "ElektraLightPro-Bold", sans-serif;
+	margin-top: 10px;
+	margin-bottom: 2px;
+	padding-top: 12px;
+}
+
+.logo h2 {
+	font: 34px/normal "ElektraLightPro-BoldItalic", sans-serif;
+}
+
+.phone {
+	text-align: right;
+	padding-top: 39px;
+}
+
+.phone p {
+	font: 40px/normal "ElektraLightPro-Bold";
+	color: #262626;
+	text-shadow: 0px 0px 7px rgba(255, 255, 255, 0.6);
+	margin-bottom: 10px;
+}
+
+.button-style {
+	max-width: 358px;
+	width: 100%;
+	font: 16px/30px "MyriadPro-Regular";
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #262626;
+	background: #dae42b;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #464646;
+	border-radius: 8px;
+}
+
+.over-text {
+	background: rgba(0, 0, 0, 0.43);
+	border-radius: 15px;
+	color: #fff;
+	padding: 20px 0 35px;
+}
+
+.bg-foot {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.bg-foot__cont {
+	position: relative;
+	max-width: 1540px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.bg-foot__cont img {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.over-text h2 {
+	font: 44px/normal "ElektraLightPro-Bold";
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.over-text ul {
+	max-width: 795px;
+	width: 100%;
+}
+
+.over-text li {
+	font: 22px/normal "MyriadPro-Regular";
+	color: #fff;
+	padding: 14px 0;
+	text-align: center;
+	list-style: none;
+}
+
+.wrapp-right {
+	max-width: 810px;
+	width: 100%;
+	float: right;
+	padding-right: 20px;
+}
+
+.w_input {
+	float: left;
+	width: 39%;
+	padding: 0 5px;
+}
+
+.w_input input {
+	max-width: 390px;
+	width: 100%;
+	background: #fff;
+	border-radius: 8px;
+	border: 0;
+	padding: 13px 10px;
+}
+
+.over-form p {
+	font: 25.5px/normal "MyriadPro-Regular";
+	font-style: italic;
+	text-align: center;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8);
+	margin-bottom: 14px;
+}
+
+.w_input input::-webkit-input-placeholder {font: 16px/normal "MyriadPro-Regular";font-weight: 600; color: #212121; text-transform: uppercase;}
+.w_input input::-moz-placeholder          {font: 16px/normal "MyriadPro-Regular";font-weight: 600; color: #212121; text-transform: uppercase;}/* Firefox 19+ */
+.w_input input:-moz-placeholder           {font: 16px/normal "MyriadPro-Regular";font-weight: 600; color: #212121; text-transform: uppercase;}/* Firefox 18- */
+.w_input input:-ms-input-placeholder      {font: 16px/normal "MyriadPro-Regular";font-weight: 600; color: #212121; text-transform: uppercase;}
+
+.w_button {
+	width: 22%;
+	float: left;
+	padding: 0 5px;
+}
+
+.form_button {
+	font: 18px/41px "MyriadPro-Regular";
+	font-weight: bold;
+	border: 0;
+	border-radius: 10px;
+	background: #dae42b;
+	color: #464646;
+	max-width: 270px;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto 0;
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	-webkit-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+
+.over-form {
+	margin-top: 60px;
+}
+
+/* MAIN STYLE =====================
+==============================================*/
+
+
+/* FOTTER ===================
+======================================*/
+
+footer {
+	background: #313232;
+	background-position: 0 top;
+	background-repeat: repeat-x;
+	color: #fff;
+	padding-top: 45px;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+	line-height: 25px;
+	-webkit-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+
+footer li {
+	list-style: none;
+}
+
+footer li:hover a,
+footer li.active a {
+	color: #aaa4a4;
+}
+
+footer li a i {
+	margin-right: 10px;
+}
+
+footer p {
+	font: 13px/25px "MyriadPro-Regular";
+}
+
+footer ul {
+	padding-left: 28px;
+}
+
+h3.name_siti {
+	font: 30px/24px "MyriadPro-BoldCond";
+	color: #dae42b;
+	margin-bottom: 24px;
+}
+
+.foot_contact {
+	margin-top: 22px;
+}
+
+.foot_contact p.phon {
+	font: 18px/normal "MyriadPro-Regular";
+	text-transform: uppercase;
+}
+
+.foot_contact p.phon span {
+	font: 20px/normal "MyriadPro-BoldCond";
+	font-style: italic;
+}
+
+.foot_contact p {
+	font: 14px/normal "MyriadPro-Regular";
+	text-transform: uppercase;
+}
+
+.foot_contact p span {
+	font: 20px/normal "MyriadPro-BoldCond";
+	font-style: italic;
+	text-transform: initial;
+}
+
+footer h4 {
+	font: 20px/normal "MyriadPro-BoldCond";
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+footer a.vk {
+	position: absolute;
+	right: 70px;
+	top: 0;
+}
+
+.map h3 {
+	font: 22px/24px "MyriadPro-BoldCond";
+}
+
+.footer_bottom {
+	background: #2c2d2d;
+	font-size: 12px;
+	padding: 13px 0;
+}
+
+form input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+form input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+form input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+form input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+form input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+form input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+form input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+form input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+/* overlay at start */
+.mfp-fade.mfp-bg {
+	opacity: 0;
+
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+	opacity: 0.8;
+}
+
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+	opacity: 0;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+	opacity: 0;
+
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+	opacity: 1;
+}
+
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+	opacity: 0;
+}
+
+.popup_window {
+	max-width: 890px;
+	width: 100%;
+	margin: 0 auto;
+	background: #d1dade;
+	position: relative;
+	padding: 32px 55px 46px 30px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.52);
+	box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.52);
+}
+
+.popup_window_logo h3 {
+	font: 24px/normal "MyriadPro-BoldCond";
+	color: #404040;
+	text-align: center;
+}
+
+.popup_window_logo,
+.popup_window_contant {
+	float: left;
+}
+
+.popup_window_logo {
+	text-align: center;
+	max-width: 225px;
+	width: 100%;
+	padding-right: 26px;
+}
+
+.popup_window_contant {
+	max-width: 580px;
+	width: 100%;
+	padding: 16px 10px 17px 25px;
+}
+
+.popup_window_contant {
+	background: #fff;
+	border-radius: 10px;
+}
+
+.popup_window_contant p {
+	font: 16px/21px "MyriadPro-Regular";
+	color: #292929;
+	text-indent: 35px;
+	margin-bottom: 4px;
+}
+
+.mfp-close-btn-in .mfp-close {
+	color: #2c9150 !important;
+	font-size: 29px;
+	font-weight: bold;
+	background: #fff;
+	border-radius: 50%;
+	width: 32px !important;
+	height: 32px !important;
+	line-height: 27px !important;
+	border: 3px solid #2c9150;
+	opacity: 1;
+	box-shadow: 0 0 0 5px #fff;
+	top: -8px;
+	right: -8px;
+}
+
+.mfp-close:active {
+	top: -8px !important;
+}
+
+.mfp-bg {
+	opacity: 0 !important;
+}
+
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
+	padding-right: 4px !important;
+}
+
+.mfp-gallery {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.mfp-gallery .mfp-close {
+	top: 40px !important;
+	right: -50px !important;
+}
+
+.tooltip:before,
+.tooltip:after {
+	display: block;
+	position: absolute;
+	visibility: hidden;
+	opacity: 0; 
+	margin-bottom: 15px;
+	transition: opacity .7s, margin-bottom .7s;
+	left: 50%;
+}
+
+.tooltip {
+	cursor: pointer;
+}
+
+.tooltip:before {
+	bottom: 75px;
+	left: 50%;
+	padding: 10px;
+	width: 300px;
+	margin-left: -150px;
+	color: white;
+	background-color: rgba(0,0,0,.85);
+	content: attr(data-title);
+	border-radius: 5px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.tooltip:after {
+	content: "";
+	border-top: 10px solid rgba(0,0,0,.85);
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	bottom: 65px;
+	margin-left: -10px;
+}
+
+.tooltip:hover:before,
+.tooltip:hover:after {
+	opacity: 1;
+	margin-bottom: 0;
+	visibility: visible;
+}
+
+/* TARIFY ==================
+=====================================*/
+
+.tarify {
+	background: #f3f3f3;
+	padding: 50px 0;
+}
+
+.tarify li {
+	list-style: none;
+	position: relative;
+}
+
+ul.prices li img {
+	max-width: 100%;
+}
+
+ul.prices .description {
+	position: absolute;
+	right: 4%;
+	width: 45%;
+	font-size: 19px;
+	top: 6%;
+}
+
+.contacts .gray-box {
+	padding: 35px 25px;
+	background-color: #ececec;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.contacts {
+	font-size: 18px;
+}
+
+.contacts p {
+	margin: 0 0 10px;
+}
+
+.aboutbox {
+	background-color: #ececec;
+	overflow: hidden;
+	padding: 30px 20px;
+	font-size: 14px;
+}
+
+.aboutbox p,
+.vistavki p {
+	margin: 0 0 10px;
+	font-size: 18px;
+}
+
+.aboutbox h1,
+.vistavki h1 {
+	font: 30px/normal "MyriadPro-BoldCond";
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.aboutbox ul {
+	padding-left: 40px;
+	margin-bottom: 10px;
+}
+
+.aboutbox li {
+	font-size: 16px;
+	list-style: initial;
+	position: relative;
+}
+
+.tachka {
+	position: relative;
+}
+
+.tachka .btar {
+	font-size: 20px !important;
+}
+
+.tachka .btar p {
+	font-size: 20px;
+}
+
+.cons_container {
+	max-width: 1030px;
+	margin: 0 auto;
+}
+
+@media (min-width: 1024px){
+	.btar {
+		position: absolute;
+		top: 200px;
+	}
+}
+
+.consalting {
+	padding: 75px 0 85px;
+	background: #f3f3f3 url(../img/line_consalting.png);
+	background-repeat: repeat-x;
+	background-position: 0 bottom;
+}
+
+.consalting_what {
+	background: 
+	url(../img/bg_consalt1.jpg) left top no-repeat, 
+	url(../img/bg_consalt2.jpg) right 535px no-repeat;
+	margin: 20px 0 0;
+	padding: 44px 0 0;
+}
+
+.consalting_top_txt {
+	background-image: url(../img/consalting_img1.png);
+	background-repeat: no-repeat;
+	background-position: right 20px;
+	padding: 78px 0 72px;
+}
+
+.consalting_top_txt p {
+	font: 20px/24px "MyriadPro-Regular";
+	color: #383838;
+	text-indent: 35px;
+	margin-bottom: 24px;
+}
+
+.consalting_top_txt p span {
+	font-family: "ElektraLightPro-Bold";
+	font-weight: bold;
+}
+
+.consalting_what_txt:before {
+	content: "";
+	background-image: url(../img/arrow_foot.png);
+	background-repeat: no-repeat;
+	width: 58px;
+	height: 67px;
+	position: absolute;
+	left: 50%;
+	margin-left: -29px;
+	bottom: -20px;
+	bottom: -100px;
+}
+
+.consalting_what_txt {
+	background: rgba(255,255,255,0.8);
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.5);
+	position: relative;
+	margin-bottom: 130px;
+}
+
+.consalting_what_txt:last-child {
+	margin-bottom: 0;
+}
+
+.consalting_what_txt:last-child:before {
+	display: none;
+}
+
+.consalting_what_txt p {
+	font-size: 24px;
+	padding: 16px 0 18px;
+}
+
+.w895 {
+	max-width: 895px;
+	margin: 0 auto;
+}
+
+.text_center {
+	text-align: center;
+}
+
+.consalting_form {
+	background-image: url(../img/bg_cons.jpg);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 4px 0 85px;
+}
+
+.cons_form form {
+	margin: 44px 0 0;
+}
+
+.cons_form button {
+	margin-top: 44px;
+}
+
+.cons_form {
+	max-width: 580px;
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	-webkit-box-shadow: 0 0 3px 1px rgba(218,228,43,0.5);
+	box-shadow: 0 0 3px 1px rgba(218,228,43,0.5);
+	padding: 21px 0 22px;
+}
+
+.cons_form input {
+	max-width: 390px;
+	width: 100%;
+	margin: 0 auto 19px;
+	display: block;
+	font-size: 18px;
+	font-family: "MyriadPro-Regular";
+	font-weight: bold;
+	color: #464646;
+	text-transform: uppercase;
+	padding: 8px 10px 6px;
+	border: 1px solid #383838;
+}
+
+.prices .form_button {
+	margin: 0 auto 35px;
+}
+
+div#go_popup {
+	max-width: 400px;
+	position: relative;
+	background: #fff;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding: 25px 0;
+	text-align: center;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.5);
+}
+.one_go_popup h4 {
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.one_go_popup span {
+	font-size: 18px;
+}
+
+.tarif_window {
+	max-width: 400px;
+	padding: 32px 30px 46px 30px;
+}
