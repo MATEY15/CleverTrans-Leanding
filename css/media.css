@@ -1,69 +1,77 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-	.side_testimonial .owl-prev {
-		left: -65px;
+@media only screen and (max-width : 1280px) {
+	.bg-foot__cont img {
+		position: absolute;
+		left: -140px;
+		bottom: 0;
 	}
-	.side_testimonial .owl-next {
-		right: -65px;
+}
+
+@media only screen and (max-width : 1200px) {
+	.bg-foot__cont img {
+		position: absolute;
+		left: -175px;
+		bottom: 0;
+	}
+}
+
+@media only screen and (max-width : 1160px) {
+	.bg-foot__cont img {
+		position: absolute;
+		left: -205px;
+		bottom: 0;
+	}
+	.my-product-item .sum:before,
+	.product-img:before,
+	.cancelar:before {
+		bottom: -36px;
+	}
+	.message {
+		overflow: hidden;
+	}
+}
+
+@media only screen and (max-width : 1159px) {
+	.my-product-item .sum:before, .product-img:before, .cancelar:before {
+		bottom: -36px;
+		border-left: 125px solid transparent;
+		border-right: 125px solid transparent;
+		left: 50%;
+		margin-left: -125px;
+	}
+	.row {
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 }
 
 @media only screen and (max-width : 1060px) {
-	.side_testimonial {
-		max-width: 920px;
+	.bg-foot__cont img {
+		display: none;
 	}
-	.container_forma {
-		max-width: 1010px;
+
+	.product-img img {
+		width: 80%;
 	}
-	.row {
-		margin: 0 !important;
+	.over-text h2 {
+		font-size: 36px;
 	}
-	.what_is_my {
+	.wrapp-right {
+		float: none;
+		margin: 0 auto;
+	}
+	header {
+		height: 780px;
 		overflow: hidden;
-	}
-	.menu ul li {
-		margin-right: 10px;
-	}
-	.menu ul li a {
-		font-size: 12px;
-	}
-	.logo h1 {
-		font-size: 42px;
-	}
-	.logo h2 {
-		font-size: 27px;
-	}
-	.item_1 {
-		left: 75px;
-		top: 58px;
-	}
-	.item_3 {
-		left: 580px;
-		top: -30px;
-	}
-	.item_4 {
-		right: 83px;
-		top: 50px;
-	}
-	.item_abs p {
-		text-shadow: 0 0 8px rgb(255, 255, 255);
-	}
-	.wrap_icon_job p {
-		font-size: 16px;
-	}
-	.wrap_row_one img {
-		padding: 0 45px;
-	}
-	.wrap_row_three img {
-		padding: 0 30px !important;
 	}
 }
 
 @media only screen and (max-width : 1024px){
-	.menu ul li {
-		margin-right: 4px;
+
+	.over-form {
+		margin-top: 25px;
 	}
 	.logo h1 {
 		font-size: 40px;
@@ -72,486 +80,243 @@
 	.logo h2 {
 		font-size: 26px;
 	}
-	.side_testimonial .owl-next {
-		right: -48px;
+	.product-img {
+		min-height: 200px;
 	}
-	.side_testimonial .owl-prev {
-		left: -48px;
-	}
-	.footer_bottom {
-		padding: 13px 15px;
-	}
-}
-
-@media only screen and (max-width : 1004px){
-	.consalting_top_txt .span9 {
-		width: 50%;
-	}
-	.consalting_top_txt p br {
-		display: none;
-	}
-	.cons_container {
-		padding: 0 10px;
-	}
-	.your_job .span2 {
-		width: 33.3%;
-	}
-	.side_testimonial {
-		max-width: 100%;
-		padding: 0 55px;
-	}
-	.side_testimonial .owl-next {
-		right: 0;
-	}
-	.side_testimonial .owl-prev {
-		left: 0;
-	}
-	.wrap_zayavka {
-		padding: 46px 15px 40px;
-	}
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 980px) {
-	.uslugi_left, 
-	.uslugi_right {
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
-	.logo h1 {
-		font-size: 38px;
-		margin-top: 26px;
-	}
-	.logo h2 {
-		font-size: 24px;
-	}
-	.wrap_row_two {
-		margin-bottom: 0px;
-	}
-	.wrap_row_one img {
-		padding: 0 45px;
-		margin-bottom: 30px;
-	}
-	.wrap_row_one {
-		margin-bottom: 0;
-	}
-	.block_zayavka {
-		padding-top: 40px;
-	}
-}
-
-@media only screen and (max-width : 960px){
-	.logo img {
-		width: 85px;
-	}
-	.logo h1 {
-		font-size: 37px;
-		margin-top: 6px;
-	}
-	.menu .phone {
-		font-size: 30px;
-		margin-top: 12px;
-	}
-	.logo {
-		padding-top: 10px;
-	}
-	.item_2 {
-		left: 310px;
-		top: -30px;
-	}
-	.item_3 {
-		left: 530px;
-		top: -30px;
-	}
-}
-
-@media only screen and (max-width : 940px){
-	.menu ul li a {
-		padding: 3px 6px 0;
+	.my-product-item {
+		overflow: hidden;
+		padding-bottom: 36px;
 	}
 }
 
 @media only screen and (max-width : 900px){
-	.product .span3 {
-		width: 50%;
+	.phone p {
+		font-size: 38px;
 	}
-	.wrap_product {
-		max-width: 320px;
-		margin: 0 auto 65px;
+	.logo h1 {
+		font-size: 36px;
+		margin-top: 22px;
 	}
-	.popup_window_contant {
-		max-width: 575px;
+	.logo img {
+		width: 100px;
 	}
-	.uslugi_img,
-	.zayavka p br {
+	.logo h2 {
+		font-size: 23px;
+	}
+	.bg-pad {
+		-webkit-background-size: 100%;
+		background-size: 100%;
+	}
+	.cont-cheked:before {
 		display: none;
+	}
+	.cont-cheked {
+		margin: 25px auto 0;
+	}
+	header {
+		height: 700px;
+		overflow: hidden;
 	}
 }
 
 @media only screen and (max-width : 854px){
-	.vistavki .span6 {
-		width: 100%;
+	.phone p {
+		font-size: 35px;
 	}
-	.menu ul li {
-		margin-right: 0px;
+	.over-text h2 {
+		font-size: 30px;
 	}
-	.logo h1 {
-		font-size: 34px;
-		margin-top: 6px;
+	.cont-cheked {
+		margin: 5px auto 0;
 	}
-	.logo h2 {
-		font-size: 22px;
-	}
-	.product .span3, 
-	.item_abs[class*=item_] {
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
-	.item_2 {
-		left: 265px;
-		top: -30px;
-	}
-	.item_3 {
-		left: 450px;
-		top: -30px;
-	}
-	.popup_window {
-		padding: 30px 30px 45px 30px;
-	}
-	.popup_window_logo {
-		max-width: 100%;
-		width: 100%;
-	}
-	.popup_window_contant {
-		max-width: 100%;
-	}
-	.item_abs p {
-		z-index: 0;
-	}
-	.tooltip:before, .tooltip:after {
-		z-index: 1000;
+	.bg-pad {
+		height: 610px;
 	}
 }
 
 @media only screen and (max-width : 800px){
-	nav {
-		margin: 4px auto 12px;
+	.phone p {
+		font-size: 32px;
 	}
-
-	a#touch-menu {
-		display: block;
-		position: absolute;
-		z-index: 1000;
-		right: 0;
-		top: -30px;
-		font-size: 15px;
-		text-transform: uppercase;
-		color: #333;
+	.over-text li,
+	.over-form p {
+		font-size: 20px;
 	}
-	.menu ul li a {
-		font-size: 14px;
-		display: block;
+	.cont-cheked li:nth-child(even) {
+		padding: 0;
 	}
-	.nav,
-	.nav li a.active:before,
-	.nav li:hover a:before {display: none;}
-	.nav li {float: none;}
-	.nav li a {
-		border-top: 1px solid #eee;
-		border-left: 3px solid transparent;
-		background: #fff;
-		color: #666;
+	.cont-cheked li:nth-child(even) input[type="checkbox"] + label .chekd {
+		top: 7px;
 	}
-	.nav li:first-child a {border-top: none;}
-	.nav li a:hover, 
-	.nav li a.active {
-		color: #E64400;
-		border-left: 3px solid #E64400;
-		border-bottom: 0;
-	}
-	.menu ul li.active {
-		background: transparent;
-		border-bottom: 0;
-	}
-	#sandwich {
-		display: block;
-	}
-	.nav li {
-		width: 100%;
-		display: block;
-	}
-	.nav{
-		text-align: left;
-	}
-
-	.nav li a, #touch-menu {
-		padding: 10px;
-	}
-	.logo {
-		width: 100% !important;
-		text-align: center;
-	}
-	.logo img {
-		float: none;
-	}
-	.menu {
-		width: 100% !important;
-	}
-	.menu .phone {
-		display: none;
-	}
-	header {
-		padding: 0px 0 10px;
-	}
-	.item_1 {
-		left: 80px;
-		top: 58px;
-	}
-	.item_4 {
-		right: 80px;
-		top: 58px;
-	}
-	.item_2 {
-		left: 240px;
-		top: -60px;
-	}
-	.item_3 {
-		left: 425px;
-		top: -60px;
+	.cont-cheked li:nth-child(even) input[type="checkbox"]:checked + label .chekd {
+		top: 1px;
 	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	.cons_form {
-		margin: 0 auto;
+	.help-wrapper {
+		padding: 0 5px;
 	}
-	.slider_top {
-		display: none !important;
-	}
-	.wrap_uslugi ul {
-		list-style: none;
-		padding-left: 40px;
-	}
-	.wrap_uslugi h3 {
-		font-size: 28px;
-	}
-	.block_uslugi {
-		padding-bottom: 45px;
-	}
-	.zayavka {
-		padding: 15px 0 34px 0px;
+	.bg-pad {
+		height: 545px;
 	}
 }
 
 @media only screen and (max-width : 720px){
-	.item_abs {
-		position: relative;
-		margin: 0 auto 30px;
-		float: left;
-		width: 50% !important;
-		max-width: 50%;
-		left: 1px;
-		top: 1px;
+	.cont-cheked {
+		max-width: 470px;
 	}
-	.what_is_my {
-		height: 100%;
+	.over-text h2 {
+		font-size: 26px;
 	}
-	.item_abs p {
-		max-width: 160px;
-		margin: 0 auto 20px;
-		display: block;
+	.over-text li, .over-form p {
+		font-size: 18px;
 	}
-	footer a.vk {
-		position: relative;
-		right: 0px;
-		top: 0;
+	.help-wrapper {
+		width: 100%;
+		margin-bottom: 35px;
 	}
-	.bg_what_is {
-		top: 50px;
+	.help-item {
+		min-height: 100%;
 	}
-	footer .span4 {
+	.my-product-item {
 		width: 50%;
 	}
-	.span4.map {
-		width: 100%;
+	.product-img img {
+		width: auto;
 	}
-	footer ul {
-		padding-left: 0;
-		margin-bottom: 10px;
+	.my-product-item {
+		margin-bottom: 20px;
 	}
 }
 
 @media only screen and (max-width : 640px){
-	.consalting_top_txt .span9 {
+	.bg-pad {
+		max-width: 975px;
 		width: 100%;
-	}
-	.consalting_top_txt {
+		height: 100%;
 		background: none;
+		padding: 0px 30px 0px 30px;
 	}
-	.consalting_what_txt {
-		background: rgba(255, 255, 255, 0.9);
+	.over-text li, .over-form p {
+		font-size: 18px;
+		text-align: left;
+		padding: 8px 10px;
 	}
-	.wrap_uslugi ul {
-		list-style: none;
-		padding-left: 25px;
+	.over-text h2 {
+		margin-bottom: 15px;
 	}
-	.wrap_uslugi ul li {
-		font-size: 16px;
+	.logo h1 {
+		font-size: 28px;
+		margin-top: 22px;
 	}
-	.container_forma{
-		padding-bottom: 20px;
+	.logo h2 {
+		font-size: 18px;
 	}
-	.container_forma .span7,
-	.container_forma .span5 {
-		width: 100%;
-		text-align: center;
+	.phone p {
+		font-size: 26px;
 	}
-	.zayavka_form label {
-		display: block;
+	.header-top {
+		height: 150px;
 	}
 }
 
 @media only screen and (max-width : 600px){
-
+	.logo img {
+		width: 85px;
+	}
+	.phone p {
+		font-size: 24px;
+	}
+	footer .span4,
+	.map {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width : 540px){
-	.txt_style h3 {
-		font-size: 40px;
-	}
-	.product {
-		padding: 46px 0 15px;
-	}
-	.uslugi_left, 
-	.uslugi_right {
+	.header-top .span7,
+	.header-top .span5 {
 		width: 100%;
 	}
-	.wrap_uslugi,
-	.right_block {
-		margin: 0 auto 20px;
+	.phone {
+		text-align: center;
+		padding-top: 10px;
 	}
-	.right_block {
-		float: none;
+	.logo {
+		color: #383838;
+		max-width: 310px;
+		margin: 0 auto;
 	}
-	.wrap_uslugi ul {
-		padding-left: 45px;
+	.header-top {
+		height: 200px;
+	}
+	.header-foot {
+		padding-top: 35px;
+	}
+	.what-help-h3 {
+		font-size: 30px;
+	}
+	.help-item h3 {
+		margin: 20px 0 20px;
+	}
+	.my-product {
+		margin: 30px 0 20px;
+	}
+	.bg-pad {
+		padding: 0px 50px 0px 30px;
 	}
 }
 
 @media only screen and (max-width : 480px){
-	.vistavki img {
-		width: 100%;
+	.w_input {
+		float: none;
+		width: 90%;
+		margin: 0 auto 15px;
 	}
-	.product .span3 {
-		width: 100%;
+	.w_button {
+		width: 80%;
+		float: none;
+		margin: 0 auto;
 	}
-	.popup_window {
-		padding: 20px 10px 30px 10px;
+	.marg_form .w_button .form_button {
+		max-width: 270px;
+		margin: 30px auto 0;
 	}
-	.item_abs {
-		width: 100% !important;
-		max-width: 100%;
-	}
-	.bg_what_is {
-		top: 10px;
-	}
-	.your_job .span2 {
-		width: 50%;
+	header {
+		height: 100%;
+		overflow: hidden;
 	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 414px) {
-	.txt_style h3 {
-		font-size: 28px;
-	}
-	.popup_window_logo {
-		padding-right: 0;
-	}
-	footer .span4 {
+	.my-product-item {
 		width: 100%;
+	}
+	.bg-pad {
+		padding: 0px 40px 0px 10px;
+	}
+	.dop_icon {
+		width: 90px;
+		text-align: center;
+		display: inline-block;
+		padding-right: 10px;
+	}
+	.wrapp-form {
+		margin: 30px auto 44px;
+	}
+	.container_message h3 {
+		font-size: 26px;
 	}
 }
 
 @media only screen and (max-width : 375px) {
-	.wrap_row_one img {
-		padding: 0;
-		margin-bottom: 30px;
-	}
+	
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-	.brand {
-		overflow: hidden;
-	}
-	#sandwich {
-		top: 25px;
-		right: 0px;
-	}
-	.txt_style h3 {
-		font-size: 26px;
-	}
-	.your_job .span2 {
-		width: 100%;
-	}
-}
-
-
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-
-}
-
-@media only screen and (min-width : 854px){
-
-}
-
-@media only screen and (min-width : 900px){
-
-}
-
-@media only screen and (min-width : 901px){
-
-}
-
-@media only screen and (min-width : 960px) {
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 980px) {
-
-}
-
-@media only screen and (min-width : 1024px){
-
-}
-
-@media only screen and (min-width : 1060px) {
-
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
+	
 }
